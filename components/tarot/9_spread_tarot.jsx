@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useSpring, a } from "@react-spring/web";
-import { useRouter } from "next/router";
 import { LoginLoader } from "../utils/loader";
-import Response, { getFilterObject } from "@/pages/9-spread-tarot/response";
+import Response, { getFilterObject } from "@/components/tarot/response";
 import { randomIntArrayInRange } from "@/pages/tarot-prediction";
 import { Button } from "../utils/buttons";
 const TarotResponse = require("../../components/jsonData/9-spread-tarot-response");
