@@ -5,7 +5,6 @@ export default function TarotIndex() {
   return (
     <div className='bg-[url("/imgs/bg1.png")] md:py-24 py-24 md:px-5 bg-cover bg-center min-h-screen w-full'>
       <div className=" max-w-5xl mx-auto px-5">
-        {/* <Button url="/" /> */}
         <div className="flex flex-col gap-14">
           <h1 className="md:text-6xl  font-bold text-white sm:text-5xl text-4xl text-center ">
             Tarot Card Reading
